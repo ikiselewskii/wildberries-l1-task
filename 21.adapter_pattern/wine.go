@@ -1,0 +1,12 @@
+package main
+
+import "fmt"
+
+type Wine struct {
+    linuxOS *Linux
+}
+
+func (w *Wine) InsertIntoLightningPort() {
+    fmt.Println("Wine runs Windows program on Linux.")
+    w.linuxOS.runProgramOnLinux()
+}

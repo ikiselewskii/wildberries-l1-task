@@ -7,7 +7,7 @@ var wg sync.WaitGroup
 
 func main(){
 
-	slice := []int{1,2,3,2,2,2,3,5,4}
+	slice := []int{2,4,6,8,10}
 	for i,v := range slice{
 		wg.Add(1)
 		go print_square(i,v)
