@@ -6,6 +6,6 @@ type User struct {
 }
 
 func (u *User) RunProgram(p Program) {
-    fmt.Println("Client inserts Lightning connector into computer.")
+    fmt.Println("User tries to run a program on his OS.")
     p.RunProgramOnWindows()
 }

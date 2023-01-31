@@ -8,9 +8,9 @@ func main() {
     user.RunProgram(win)
 
     archLinux := &Linux{}
-    windowsMachineAdapter := &Wine{
+    emulator := &Wine{
         linuxOS: archLinux,
     }
 
-    user.RunProgram(windowsMachineAdapter)
+    user.RunProgram(emulator)
 }
