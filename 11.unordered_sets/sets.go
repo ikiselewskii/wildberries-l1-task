@@ -16,7 +16,7 @@ func main(){
 
 func intercept(set1,set2 set)set{
 	ans := make(set)
-	for k,_ := range set1{
+	for k := range set1{
 		_,ok := set2[k]
 		if ok{
 			ans[k] = void{}
